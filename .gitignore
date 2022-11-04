@@ -1,2 +1,3 @@
-accounts/
-logs/
+/accounts/
+/logs/
+/node_modules/@koishijs/plugin-assets-local/public/
