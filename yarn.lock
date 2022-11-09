@@ -886,10 +886,10 @@ __metadata:
     "@koishijs/plugin-verifier": 1.0.6
     koishi: 4.10.0
     koishi-plugin-changelog: 2.0.1
-    koishi-plugin-dialogue: 4.0.2
-    koishi-plugin-dialogue-context: 1.0.1
+    koishi-plugin-dialogue: 4.0.3
+    koishi-plugin-dialogue-context: 1.0.2
     koishi-plugin-gocqhttp: 3.1.4
-    koishi-plugin-novelai: 1.13.2
+    koishi-plugin-novelai: 1.13.3
     koishi-plugin-pics: 10.3.2
     koishi-plugin-picsource-localfs: 10.2.0
     yml-register: 1.1.0
@@ -3078,24 +3078,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-dialogue-context@npm:1.0.1":
-  version: 1.0.1
-  resolution: "koishi-plugin-dialogue-context@npm:1.0.1"
+"koishi-plugin-dialogue-context@npm:1.0.2":
+  version: 1.0.2
+  resolution: "koishi-plugin-dialogue-context@npm:1.0.2"
   peerDependencies:
-    koishi: ^4.8.4
-    koishi-plugin-dialogue: ^4.0.1
-  checksum: a977366d7bc88743ac9ebab01f4420a66a25b2edc13fc6c63554adcde667f9df2f084781aa0c038e9d348b7d7aac4862252640d37086a263e84e4fa66b786df0
+    koishi: ^4.10.0
+    koishi-plugin-dialogue: ^4.0.3
+  checksum: ae8b85707de74bb47994efb69f9a00feae615b0c6dd62c886bb121f7ce1cfd00ba9e5f3b189f4e5a917c187022af55dd4b294ed3f40368b48b754b0120cc594f
   languageName: node
   linkType: hard
 
-"koishi-plugin-dialogue@npm:4.0.2":
-  version: 4.0.2
-  resolution: "koishi-plugin-dialogue@npm:4.0.2"
+"koishi-plugin-dialogue@npm:4.0.3":
+  version: 4.0.3
+  resolution: "koishi-plugin-dialogue@npm:4.0.3"
   dependencies:
     fastest-levenshtein: ^1.0.16
   peerDependencies:
-    koishi: ^4.9.7
-  checksum: 7001eff6495e31e86158a14645ec4c87ff8d8f90cdcebc5aab86fc419dfe7d4a49ad4079310026617b97a2c2b56c211876c82e45e9586132a71ebfd826515892
+    koishi: ^4.10.0
+  checksum: e5735453f7117e2a387eabcfcde0e5eee87b91858626ef464176ea6e4dbdbc014f3cb263ac343d65231f7d332ac9aca338a904301897f59309048126c30d12dd
   languageName: node
   linkType: hard
 
@@ -3112,15 +3112,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-novelai@npm:1.13.2":
-  version: 1.13.2
-  resolution: "koishi-plugin-novelai@npm:1.13.2"
+"koishi-plugin-novelai@npm:1.13.3":
+  version: 1.13.3
+  resolution: "koishi-plugin-novelai@npm:1.13.3"
   dependencies:
     image-size: ^1.0.2
     libsodium-wrappers: ^0.7.10
   peerDependencies:
     koishi: ^4.10.0
-  checksum: 887d46b961941efada7630382b0444ac45bc1fe606e3ece5ca980a636d445db338bf8d35a6fbbf66cf784de9687c21fd838e47d21dee20003846ee51520a5b22
+  checksum: d5c2ddd832ea079793186dd767aa26dba38f3fbd512cd6fb3e89997c0e4456b2638eea4e567188779fa6a7d01bf2524888de6788f19499c6d81e7ab2165e6c7d
   languageName: node
   linkType: hard
 
