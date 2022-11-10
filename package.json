@@ -18,7 +18,7 @@
     "@koishijs/plugin-adapter-telegram": "3.5.1",
     "@koishijs/plugin-admin": "1.1.5",
     "@koishijs/plugin-assets-local": "2.0.10",
-    "@koishijs/plugin-auth": "2.3.1",
+    "@koishijs/plugin-auth": "2.3.2",
     "@koishijs/plugin-bind": "1.3.2",
     "@koishijs/plugin-chat": "3.1.9",
     "@koishijs/plugin-commands": "2.1.5",
@@ -48,7 +48,7 @@
     "koishi-plugin-dialogue": "4.0.3",
     "koishi-plugin-dialogue-context": "1.0.2",
     "koishi-plugin-gocqhttp": "3.1.4",
-    "koishi-plugin-novelai": "1.13.3",
+    "koishi-plugin-novelai": "1.13.5",
     "koishi-plugin-pics": "10.3.2",
     "koishi-plugin-picsource-localfs": "10.2.0",
     "yml-register": "1.1.0"
