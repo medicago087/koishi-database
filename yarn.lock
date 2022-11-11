@@ -853,10 +853,10 @@ __metadata:
   resolution: "@koishijs/boilerplate@workspace:."
   dependencies:
     "@koishijs/cli": 4.10.0
-    "@koishijs/plugin-adapter-discord": 3.3.1
-    "@koishijs/plugin-adapter-kook": 3.4.1
-    "@koishijs/plugin-adapter-onebot": 5.3.4
-    "@koishijs/plugin-adapter-telegram": 3.5.1
+    "@koishijs/plugin-adapter-discord": 3.3.2
+    "@koishijs/plugin-adapter-kook": 3.4.2
+    "@koishijs/plugin-adapter-onebot": 5.3.6
+    "@koishijs/plugin-adapter-telegram": 3.5.2
     "@koishijs/plugin-admin": 1.1.5
     "@koishijs/plugin-assets-local": 2.0.10
     "@koishijs/plugin-auth": 2.3.2
@@ -875,10 +875,10 @@ __metadata:
     "@koishijs/plugin-locales": 1.0.3
     "@koishijs/plugin-logger": 2.1.7
     "@koishijs/plugin-market": 1.4.6
-    "@koishijs/plugin-rate-limit": 1.2.2
+    "@koishijs/plugin-rate-limit": 1.2.3
     "@koishijs/plugin-repeater": 1.1.3
     "@koishijs/plugin-respondent": 5.0.2
-    "@koishijs/plugin-sandbox": 2.3.4
+    "@koishijs/plugin-sandbox": 2.3.5
     "@koishijs/plugin-status": 6.1.6
     "@koishijs/plugin-sudo": 1.1.3
     "@koishijs/plugin-suggest": 1.1.5
@@ -927,7 +927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/helpers@npm:^1.2.3, @koishijs/helpers@npm:^1.2.4":
+"@koishijs/helpers@npm:^1.2.3, @koishijs/helpers@npm:^1.2.4, @koishijs/helpers@npm:^1.2.5":
   version: 1.2.5
   resolution: "@koishijs/helpers@npm:1.2.5"
   peerDependencies:
@@ -949,47 +949,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-discord@npm:3.3.1":
-  version: 3.3.1
-  resolution: "@koishijs/plugin-adapter-discord@npm:3.3.1"
+"@koishijs/plugin-adapter-discord@npm:3.3.2":
+  version: 3.3.2
+  resolution: "@koishijs/plugin-adapter-discord@npm:3.3.2"
   dependencies:
-    "@satorijs/adapter-discord": ^3.3.1
+    "@satorijs/adapter-discord": ^3.3.2
   peerDependencies:
-    koishi: ^4.9.9
-  checksum: f9645f4e04db4a56380caf3978306a6d55667ea86e3c9a061b43d93e182d90ba55a9b6dee7e6eb4a9fa36401b868b63f6dcf1833e17155a7ed0454103d1536e4
+    koishi: ^4.10.0
+  checksum: 53fab4a2684734b14cce04e1260e6c41d2bbb2e9c6b4266f07e917cf1b17fbdc1eb563efc9c5d183d1d49b25342e226b56b471b14cbc75162d185a31b8a2fdc3
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-kook@npm:3.4.1":
-  version: 3.4.1
-  resolution: "@koishijs/plugin-adapter-kook@npm:3.4.1"
+"@koishijs/plugin-adapter-kook@npm:3.4.2":
+  version: 3.4.2
+  resolution: "@koishijs/plugin-adapter-kook@npm:3.4.2"
   dependencies:
-    "@satorijs/adapter-kook": ^3.4.1
+    "@satorijs/adapter-kook": ^3.4.2
   peerDependencies:
-    koishi: ^4.9.9
-  checksum: bfb093ed848b6a0057029e76ca8f259f25135d38dc72fa8e03c702493a53ab7a00fdec5b1abde8d3e69db9adeb18bc238257909fd34b1a270971f2fef7b06d8c
+    koishi: ^4.10.0
+  checksum: cb8c85eda017ade88de62a9d66b14b71f9c15bdb72ef643094028ff2a469511b80de1bfa951afc68ab840a3dc4ab25f80dffe25be761a77a5fc6d715bda50b8f
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-onebot@npm:5.3.4":
-  version: 5.3.4
-  resolution: "@koishijs/plugin-adapter-onebot@npm:5.3.4"
+"@koishijs/plugin-adapter-onebot@npm:5.3.6":
+  version: 5.3.6
+  resolution: "@koishijs/plugin-adapter-onebot@npm:5.3.6"
   dependencies:
-    "@satorijs/adapter-onebot": ^5.3.4
+    "@satorijs/adapter-onebot": ^5.3.6
   peerDependencies:
-    koishi: ^4.9.9
-  checksum: ad19d3f535095b9cf193ea0c0f23d797aac158388e05a94dd4c8d97d20fa92d5060114a0fc0880d4964bb5b037daf34c2d10430e24647d4263fa1bf0a697d074
+    koishi: ^4.10.0
+  checksum: ea3000d74ede624cb9bf939e21ce625e910d499992f74b065731fcb2758ca3a07ca67db3c9b104e7f65392b3332939f5f431e60ec11f23bb9d701e9dd55e2d86
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-telegram@npm:3.5.1":
-  version: 3.5.1
-  resolution: "@koishijs/plugin-adapter-telegram@npm:3.5.1"
+"@koishijs/plugin-adapter-telegram@npm:3.5.2":
+  version: 3.5.2
+  resolution: "@koishijs/plugin-adapter-telegram@npm:3.5.2"
   dependencies:
-    "@satorijs/adapter-telegram": ^3.5.1
+    "@satorijs/adapter-telegram": ^3.5.2
   peerDependencies:
-    koishi: ^4.9.9
-  checksum: b1a983831b5bb622420b9c7a62a7043c76e6fab58da0ce4853cf0acd5c8d5fb6a23586fdd7b8ad2262196f9723cc05fe83a8b9c93ba9ff4997c9c31be5b8511f
+    koishi: ^4.10.0
+  checksum: 7302e769c6d5bcd593f3dd913d3f86b3b3830aa58fe349fa0367188d7ee5c335196235c46256ce7a624b61f836c3e288918d43402d59dcb422026ff0532e585f
   languageName: node
   linkType: hard
 
@@ -1199,14 +1199,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-rate-limit@npm:1.2.2":
-  version: 1.2.2
-  resolution: "@koishijs/plugin-rate-limit@npm:1.2.2"
+"@koishijs/plugin-rate-limit@npm:1.2.3":
+  version: 1.2.3
+  resolution: "@koishijs/plugin-rate-limit@npm:1.2.3"
   dependencies:
-    "@koishijs/helpers": ^1.2.4
+    "@koishijs/helpers": ^1.2.5
   peerDependencies:
-    koishi: ^4.9.5
-  checksum: 35ba433b4fa857083e9554a9588ef2528e94b05ca8addd237190936b8a99c53223a6e8c6b89aebc883da472cf3d330b7710d8dcd0c0626212fe85f752cc66b97
+    koishi: ^4.10.0
+  checksum: 5b1703a0bfa936b34e1925467503322d2d51ced837714a6c1695ead431ff00b9555fa307bdf4e6e99bcac8323046e9b6fd727ada4a783d990d0cb75baa1d290f
   languageName: node
   linkType: hard
 
@@ -1228,13 +1228,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-sandbox@npm:2.3.4":
-  version: 2.3.4
-  resolution: "@koishijs/plugin-sandbox@npm:2.3.4"
+"@koishijs/plugin-sandbox@npm:2.3.5":
+  version: 2.3.5
+  resolution: "@koishijs/plugin-sandbox@npm:2.3.5"
   peerDependencies:
     "@koishijs/plugin-console": ^4.6.11
     koishi: ^4.10.0
-  checksum: 470b1a25d48b35539b8c74c9fe8d6709215a44d7134bbc3511da3f6dcc98b54aedc8543b2c8a6ff68fc932eeb2423a5ae68c60441654d82caad14ae1dc702ebf
+  checksum: 8910a7229c8d3a9590c17488cd11f08524d130cb02883c4c772da75bac5018085a0b4aabde181aa0315259e28a1e1aa5288708c6386b4bf078466f89d29c8f82
   languageName: node
   linkType: hard
 
@@ -1428,49 +1428,49 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-discord@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "@satorijs/adapter-discord@npm:3.3.1"
+"@satorijs/adapter-discord@npm:^3.3.2":
+  version: 3.3.2
+  resolution: "@satorijs/adapter-discord@npm:3.3.2"
   dependencies:
     file-type: ^16.5.4
     form-data: ^4.0.0
   peerDependencies:
-    "@satorijs/satori": ^1.3.5
-  checksum: f7cabfcc0ea148e1b43c744e38a5faec2cc10a74fccd3c598d9cdad7ba435c1bf71ea599e22cc65faa82e541d1d17fa73f5affa136efe757b74405bcc49701cd
+    "@satorijs/satori": ^1.3.7
+  checksum: dd24a118627a0a79a108bc2bf8b74d8797b1978850ffed54524c0a66f695de115c43d9c511a32f194f827e54618316abdb4748ce7e03e82b007126208d031342
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-kook@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "@satorijs/adapter-kook@npm:3.4.1"
+"@satorijs/adapter-kook@npm:^3.4.2":
+  version: 3.4.2
+  resolution: "@satorijs/adapter-kook@npm:3.4.2"
   dependencies:
     form-data: ^4.0.0
   peerDependencies:
-    "@satorijs/satori": ^1.3.5
-  checksum: 5404b47dbc15b2a140a35158700f64379c7bb28e89110798d66e669aa9e56baeee091c7cce81d1de4997b785d0dd0776358c22527131dc0c265e957b961aaa31
+    "@satorijs/satori": ^1.3.7
+  checksum: 10f9cc70b5b4b13f95242a1b1c3ec33a46d19fe388cf419e5876cf15bab518b7a15daa1ffa6e26597441d639bd5937b5fac6c9dbca5038d7d58fc87a3f73c13e
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-onebot@npm:^5.3.4":
-  version: 5.3.4
-  resolution: "@satorijs/adapter-onebot@npm:5.3.4"
+"@satorijs/adapter-onebot@npm:^5.3.6":
+  version: 5.3.6
+  resolution: "@satorijs/adapter-onebot@npm:5.3.6"
   dependencies:
     qface: ^1.2.0
   peerDependencies:
-    "@satorijs/satori": ^1.3.5
-  checksum: 6179a3ca1afb554a84eee5dbefa7dc7841a30de34b76599c602d6a28d5c9b4246159a83aff7216995b04e0ea199221c584deede036c6da91374f884f23e2c7b5
+    "@satorijs/satori": ^1.3.7
+  checksum: d5511e315bad629cf0a1f78616518e0facb020af9dd9c0c0d54e17791d79b723962aea44e1176bde2b79fd13645e7383984dbd7cb256848a810f98a85ce73b4f
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-telegram@npm:^3.5.1":
-  version: 3.5.1
-  resolution: "@satorijs/adapter-telegram@npm:3.5.1"
+"@satorijs/adapter-telegram@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "@satorijs/adapter-telegram@npm:3.5.2"
   dependencies:
     file-type: ^16.5.4
     form-data: ^4.0.0
   peerDependencies:
-    "@satorijs/satori": ^1.3.5
-  checksum: 4a0fb61dc3744d6fb0569b56fbf683bd7ab769835443b139f7fd9353ba36c22ba52f6b8ec720d6e5b2544f88e454a472ab331dd1a534803762301ad8d4cf38b2
+    "@satorijs/satori": ^1.3.7
+  checksum: 4c54f9eedfc36f650270cb2f19d3e2e05bf9ba1de83cc0e6708a8adb53870ca6e8e3b7065bbd74f0ddca698259538427668e9e67637da852b717a376edecc5ba
   languageName: node
   linkType: hard
 
