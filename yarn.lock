@@ -852,10 +852,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@koishijs/boilerplate@workspace:."
   dependencies:
-    "@koishijs/cli": 4.10.0
+    "@koishijs/cli": 4.10.1
     "@koishijs/plugin-adapter-discord": 3.3.2
     "@koishijs/plugin-adapter-kook": 3.4.2
-    "@koishijs/plugin-adapter-onebot": 5.3.6
+    "@koishijs/plugin-adapter-onebot": 5.3.7
     "@koishijs/plugin-adapter-telegram": 3.5.2
     "@koishijs/plugin-admin": 1.1.5
     "@koishijs/plugin-assets-local": 2.0.10
@@ -884,7 +884,7 @@ __metadata:
     "@koishijs/plugin-suggest": 1.1.5
     "@koishijs/plugin-switch": 1.0.6
     "@koishijs/plugin-verifier": 1.0.6
-    koishi: 4.10.0
+    koishi: 4.10.1
     koishi-plugin-changelog: 2.0.1
     koishi-plugin-dialogue: 4.0.3
     koishi-plugin-dialogue-context: 1.0.2
@@ -896,9 +896,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@koishijs/cli@npm:4.10.0":
-  version: 4.10.0
-  resolution: "@koishijs/cli@npm:4.10.0"
+"@koishijs/cli@npm:4.10.1":
+  version: 4.10.1
+  resolution: "@koishijs/cli@npm:4.10.1"
   dependencies:
     "@koishijs/loader": ^2.2.2
     cac: ^6.7.12
@@ -907,23 +907,23 @@ __metadata:
     prompts: ^2.4.2
     throttle-debounce: ^3.0.1
   peerDependencies:
-    koishi: ^4.10.0
+    koishi: ^4.10.1
   bin:
     koishi: lib/bin.js
-  checksum: 381d52fe98cefb098135bae0795eb35237e02f3e6cb0aa0544124e0c846f36dab5ac9aa87a1ad01ca641d112ecbee873e4bbc487763612dc7c18b5395c3f5fa2
+  checksum: 4cab395b07cd2caeda30098d10bfd25238cdc6a9eb6e1a7f4969ac4f43624bfb937f58f6c75d16f5f733213806b4ffcee2c7555e1b726b104d42161eac8be4da
   languageName: node
   linkType: hard
 
-"@koishijs/core@npm:^4.10.0":
-  version: 4.10.0
-  resolution: "@koishijs/core@npm:4.10.0"
+"@koishijs/core@npm:^4.10.1":
+  version: 4.10.1
+  resolution: "@koishijs/core@npm:4.10.1"
   dependencies:
-    "@koishijs/utils": ^6.2.4
+    "@koishijs/utils": ^6.2.5
     "@minatojs/core": ^1.3.2
-    "@satorijs/core": ^1.3.5
+    "@satorijs/core": ^1.3.7
     cordis: ^2.5.0
     cosmokit: ^1.3.3
-  checksum: f39c04b8b8f7d4ae1c7d51800ec88446ca353477807b99adf646060d7bba0682b0d95f964740e4b63ba363f3b5e8f2b38bc6c8b1bc2f8bc5751258dfb071a190
+  checksum: 1d86abf979aafb907a30037a7a81716f81d702337dea2579e62a94cc63a44a1aca5e3bed99f41c3e9c544609840d00232fdf389c3d395bfb2fa42f4d7c96377a
   languageName: node
   linkType: hard
 
@@ -971,14 +971,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-onebot@npm:5.3.6":
-  version: 5.3.6
-  resolution: "@koishijs/plugin-adapter-onebot@npm:5.3.6"
+"@koishijs/plugin-adapter-onebot@npm:5.3.7":
+  version: 5.3.7
+  resolution: "@koishijs/plugin-adapter-onebot@npm:5.3.7"
   dependencies:
-    "@satorijs/adapter-onebot": ^5.3.6
+    "@satorijs/adapter-onebot": ^5.3.7
   peerDependencies:
     koishi: ^4.10.0
-  checksum: ea3000d74ede624cb9bf939e21ce625e910d499992f74b065731fcb2758ca3a07ca67db3c9b104e7f65392b3332939f5f431e60ec11f23bb9d701e9dd55e2d86
+  checksum: 7dc39fb4b1aaf27a22be9a4f31b45d627069e4defa7fb00f78f8a7b38bcafe2b12c6ea7f290bf0c4ceb7382644b4a3ccb2f1cde56b0d994ab737ef6bdbf052f9
   languageName: node
   linkType: hard
 
@@ -1301,15 +1301,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/utils@npm:^6.2.4":
-  version: 6.2.4
-  resolution: "@koishijs/utils@npm:6.2.4"
+"@koishijs/utils@npm:^6.2.5":
+  version: 6.2.5
+  resolution: "@koishijs/utils@npm:6.2.5"
   dependencies:
     cosmokit: ^1.3.3
     inaba: ^1.1.1
     reggol: ^1.3.1
     schemastery: ^3.5.4
-  checksum: 030956ff4b758273ec26fe33284e0cedbc5b9eea0ea2aa6ecb0090e56720db55bbdd9b34b4beba648debe5f334305acfcec9bb9aea932e52c141ffc1bc08c598
+  checksum: cd39acc4b719d5bd9839c863588236f9ad67ff1e75ce1a5f331d78f10933e9d11a721d85df643417e0a46eec4870f2e786320e66ff8991fe8050a409bb4afa98
   languageName: node
   linkType: hard
 
@@ -1451,14 +1451,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-onebot@npm:^5.3.6":
-  version: 5.3.6
-  resolution: "@satorijs/adapter-onebot@npm:5.3.6"
+"@satorijs/adapter-onebot@npm:^5.3.7":
+  version: 5.3.7
+  resolution: "@satorijs/adapter-onebot@npm:5.3.7"
   dependencies:
     qface: ^1.2.0
   peerDependencies:
     "@satorijs/satori": ^1.3.7
-  checksum: d5511e315bad629cf0a1f78616518e0facb020af9dd9c0c0d54e17791d79b723962aea44e1176bde2b79fd13645e7383984dbd7cb256848a810f98a85ce73b4f
+  checksum: 6877ca1424bd294b4293b7800ddac89581da3f8604e69fc65a273e47fb300764c25c03e93f106291b920be8070a41a119939f47815b26343d05f7938014d2b3d
   languageName: node
   linkType: hard
 
@@ -1474,9 +1474,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@satorijs/core@npm:1.3.6, @satorijs/core@npm:^1.3.5":
-  version: 1.3.6
-  resolution: "@satorijs/core@npm:1.3.6"
+"@satorijs/core@npm:1.3.7, @satorijs/core@npm:^1.3.7":
+  version: 1.3.7
+  resolution: "@satorijs/core@npm:1.3.7"
   dependencies:
     "@satorijs/element": ^2.0.0
     cordis: ^2.5.0
@@ -1485,7 +1485,7 @@ __metadata:
     reggol: ^1.3.1
     schemastery: ^3.5.4
     ws: ^8.8.1
-  checksum: a08ec9ab4a147644c6bc52274751562e6a61cb4f0c7ed14620990856762c53d20930462cd5d07fb0e815bccb4884a91247be52713befdd1c0aa184391f0fa1c3
+  checksum: 01a53612c876be100c1822dce4f7a4108998d75d969f0350f2fbc0b6888fa072c565c68eef054305ee47ab0d834baf25dc3c45c090420f3620386e593b5b2629
   languageName: node
   linkType: hard
 
@@ -1498,12 +1498,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@satorijs/satori@npm:^1.3.5":
-  version: 1.3.6
-  resolution: "@satorijs/satori@npm:1.3.6"
+"@satorijs/satori@npm:^1.3.7":
+  version: 1.3.7
+  resolution: "@satorijs/satori@npm:1.3.7"
   dependencies:
     "@koa/router": ^10.1.1
-    "@satorijs/core": 1.3.6
+    "@satorijs/core": 1.3.7
     "@types/koa": "*"
     "@types/koa__router": "*"
     "@types/ws": ^8.5.3
@@ -1517,7 +1517,7 @@ __metadata:
     schemastery: ^3.5.4
     socks-proxy-agent: ^5.0.1
     ws: ^8.8.1
-  checksum: eb4ebb815bf46bce0a3dc6009347e71483770e3c3af376797ec9e94707a5963ed5622516f710fa0459d0893adba567a8d4721835ed37175ee1219bef8361151c
+  checksum: 45f78136903f1653237962b9ede09a1282ff0089851c7601fdb58b75807b5ea91b6ac9248d2ea98fa962efc69d6fbe1f087159d8f6023640072a6b2d829e00c2
   languageName: node
   linkType: hard
 
@@ -3162,16 +3162,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi@npm:4.10.0":
-  version: 4.10.0
-  resolution: "koishi@npm:4.10.0"
+"koishi@npm:4.10.1":
+  version: 4.10.1
+  resolution: "koishi@npm:4.10.1"
   dependencies:
-    "@koishijs/core": ^4.10.0
-    "@koishijs/utils": ^6.2.4
-    "@satorijs/satori": ^1.3.5
+    "@koishijs/core": ^4.10.1
+    "@koishijs/utils": ^6.2.5
+    "@satorijs/satori": ^1.3.7
     file-type: ^16.5.4
     ns-require: ^1.1.4
-  checksum: b4b71c3e0d1eadfabe70a47ce32776fbb23809e482c925a616f9afaa1ae424e6200443d9e2bd2f2ff44ebc341180934f1e330846d58e912056ca10056414b5fe
+  checksum: 564d03bb5a2e6e8c0fb967151cf93e652ad33b67a9a48f5aa7f75598220d2860696cd081cc2b5b1c2f29a523478be8f879772e3948346428b2a5bd49b3045b5c
   languageName: node
   linkType: hard
 

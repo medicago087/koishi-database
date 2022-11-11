@@ -11,10 +11,10 @@
     "start": "koishi start -r yml-register"
   },
   "dependencies": {
-    "@koishijs/cli": "4.10.0",
+    "@koishijs/cli": "4.10.1",
     "@koishijs/plugin-adapter-discord": "3.3.2",
     "@koishijs/plugin-adapter-kook": "3.4.2",
-    "@koishijs/plugin-adapter-onebot": "5.3.6",
+    "@koishijs/plugin-adapter-onebot": "5.3.7",
     "@koishijs/plugin-adapter-telegram": "3.5.2",
     "@koishijs/plugin-admin": "1.1.5",
     "@koishijs/plugin-assets-local": "2.0.10",
@@ -43,7 +43,7 @@
     "@koishijs/plugin-suggest": "1.1.5",
     "@koishijs/plugin-switch": "1.0.6",
     "@koishijs/plugin-verifier": "1.0.6",
-    "koishi": "4.10.0",
+    "koishi": "4.10.1",
     "koishi-plugin-changelog": "2.0.1",
     "koishi-plugin-dialogue": "4.0.3",
     "koishi-plugin-dialogue-context": "1.0.2",
