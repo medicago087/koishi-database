@@ -889,9 +889,10 @@ __metadata:
     koishi-plugin-dialogue: 4.0.3
     koishi-plugin-dialogue-context: 1.0.2
     koishi-plugin-gocqhttp: 3.1.4
-    koishi-plugin-novelai: 1.13.5
+    koishi-plugin-novelai: 1.14.1
     koishi-plugin-pics: 10.3.2
     koishi-plugin-picsource-localfs: 10.2.0
+    koishi-plugin-translator-youdao: 1.0.1
     yml-register: 1.1.0
   languageName: unknown
   linkType: soft
@@ -1298,6 +1299,15 @@ __metadata:
     p-map: ^4.0.0
     semver: ^7.3.7
   checksum: 9b6b1f5c7a919eb2e3e3623dc69dba7497b907ca2c0f1693cfa01a1c2bfb3baa20e2151b0af9c430eadc1eda5e56eae9db6178f34345ac49b2ecabcd15334f55
+  languageName: node
+  linkType: hard
+
+"@koishijs/translator@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@koishijs/translator@npm:1.0.0"
+  peerDependencies:
+    koishi: ^4.10.1
+  checksum: 2cb6544c663f9cf053af36ecace8617257cd74bb5ea7b0f90550f6e16e4f5986fb08d4de303f3342f42e2eb1bb9210de12831714ecd1bd24574a1ff45194674c
   languageName: node
   linkType: hard
 
@@ -3112,15 +3122,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-novelai@npm:1.13.5":
-  version: 1.13.5
-  resolution: "koishi-plugin-novelai@npm:1.13.5"
+"koishi-plugin-novelai@npm:1.14.1":
+  version: 1.14.1
+  resolution: "koishi-plugin-novelai@npm:1.14.1"
   dependencies:
     image-size: ^1.0.2
     libsodium-wrappers: ^0.7.10
   peerDependencies:
-    koishi: ^4.10.0
-  checksum: c58d0c5d4ba7413f29f42c8d4507366bb1d84a555d16d3ca7ceb1aa957bb18b4a651d9b327a415d883b3f3838b3110b591fbe33107bbf54582af4e031b63ea71
+    "@koishijs/translator": ^1.0.0
+    koishi: ^4.10.1
+  peerDependenciesMeta:
+    "@koishijs/translator":
+      optional: true
+  checksum: dc6c08ec327ba78fc45116bb973c8a4abb5284518205bdcd51b4a2613cad03c7eb1affbb6781989e06971cf66b53d774a00dc81955e96fc3a45f8a149cd2a268
   languageName: node
   linkType: hard
 
@@ -3146,6 +3160,17 @@ __metadata:
     koishi: ^4.9.7
     koishi-plugin-pics: ^10.2.1
   checksum: 33defce6094e494eda863ea85926feb3c2a030290dbb6100377d56962544bf5ed9d54fe46b6e4d824bc2a9e49438110196aea710a5cb37e32ed049eba6f9db8f
+  languageName: node
+  linkType: hard
+
+"koishi-plugin-translator-youdao@npm:1.0.1":
+  version: 1.0.1
+  resolution: "koishi-plugin-translator-youdao@npm:1.0.1"
+  dependencies:
+    "@koishijs/translator": ^1.0.0
+  peerDependencies:
+    koishi: ^4.10.1
+  checksum: 2222654fd7080ad822ecc6d789475e5facd0c783f0ba7c363be9d1fb4b0d2359c9982cc61cae7faa361bc74ee68ae531d10753bb6394c4d7668f7d832fc2719a
   languageName: node
   linkType: hard
 
