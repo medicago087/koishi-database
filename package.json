@@ -48,7 +48,7 @@
     "koishi-plugin-dialogue": "4.0.4",
     "koishi-plugin-dialogue-context": "1.0.2",
     "koishi-plugin-gocqhttp": "3.1.4",
-    "koishi-plugin-novelai": "1.14.3",
+    "koishi-plugin-novelai": "1.14.7",
     "koishi-plugin-pics": "10.3.2",
     "koishi-plugin-picsource-localfs": "10.2.0",
     "koishi-plugin-translator-baidu": "1.0.1",

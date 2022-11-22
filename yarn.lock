@@ -889,7 +889,7 @@ __metadata:
     koishi-plugin-dialogue: 4.0.4
     koishi-plugin-dialogue-context: 1.0.2
     koishi-plugin-gocqhttp: 3.1.4
-    koishi-plugin-novelai: 1.14.3
+    koishi-plugin-novelai: 1.14.7
     koishi-plugin-pics: 10.3.2
     koishi-plugin-picsource-localfs: 10.2.0
     koishi-plugin-translator-baidu: 1.0.1
@@ -3123,9 +3123,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-novelai@npm:1.14.3":
-  version: 1.14.3
-  resolution: "koishi-plugin-novelai@npm:1.14.3"
+"koishi-plugin-novelai@npm:1.14.7":
+  version: 1.14.7
+  resolution: "koishi-plugin-novelai@npm:1.14.7"
   dependencies:
     image-size: ^1.0.2
     libsodium-wrappers: ^0.7.10
@@ -3135,7 +3135,7 @@ __metadata:
   peerDependenciesMeta:
     "@koishijs/translator":
       optional: true
-  checksum: c2d6eb00fb960a21f1e5959c14216eb8cb73d32d198dcac512faac556a518e46ac1e8980840720b9c4206ba152d41824e7f3cb1a4ef048284479d070fd13ef4c
+  checksum: a8e09153dec6d036889563320db4b31b7b27aac3db3c2705a89b0208eac1ae26d5974f74964c123738f006dc727c55483708e145e9d22ae8d0aea0479752c447
   languageName: node
   linkType: hard
 
