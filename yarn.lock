@@ -835,6 +835,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ioredis/commands@npm:^1.1.1":
+  version: 1.2.0
+  resolution: "@ioredis/commands@npm:1.2.0"
+  checksum: 9b20225ba36ef3e5caf69b3c0720597c3016cc9b1e157f519ea388f621dd9037177f84cfe7e25c4c32dad7dd90c70ff9123cd411f747e053cf292193c9c461e2
+  languageName: node
+  linkType: hard
+
 "@koa/router@npm:^10.1.1":
   version: 10.1.1
   resolution: "@koa/router@npm:10.1.1"
@@ -885,13 +892,14 @@ __metadata:
     "@koishijs/plugin-switch": 1.0.6
     "@koishijs/plugin-verifier": 1.0.6
     koishi: 4.10.3
+    koishi-plugin-cache-aragami: 2.4.0
     koishi-plugin-changelog: 2.0.1
     koishi-plugin-dialogue: 4.0.5
     koishi-plugin-dialogue-context: 1.0.2
     koishi-plugin-gocqhttp: 3.1.4
     koishi-plugin-novelai: 1.15.0
-    koishi-plugin-pics: 10.3.2
-    koishi-plugin-picsource-localfs: 10.2.0
+    koishi-plugin-pics: 10.4.0
+    koishi-plugin-picsource-localfs: 10.3.0
     koishi-plugin-picsource-yande: 3.3.0
     koishi-plugin-translator-baidu: 1.0.1
     koishi-plugin-translator-youdao: 1.0.1
@@ -1393,6 +1401,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nanahira/redlock@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@nanahira/redlock@npm:1.0.0"
+  dependencies:
+    node-abort-controller: ^3.0.1
+  checksum: 54fab42d9f5a30086a8fbd2106d864d66dad8318d1512e050aa5c629f291944350c71a7a0472725f15d8c239005ba3460a4e8c8254a6144ba0f9e009220c0953
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1845,6 +1862,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"aragami@npm:^1.1.1":
+  version: 1.1.2
+  resolution: "aragami@npm:1.1.2"
+  dependencies:
+    "@nanahira/redlock": ^1.0.0
+    better-lock: ^2.0.3
+    class-transformer: ^0.5.1
+    encoded-buffer: ^0.2.6
+    ioredis: ^5.2.3
+    lodash: ^4.17.21
+    lru-cache: ^7.13.1
+    typed-reflector: ^1.0.11
+  checksum: 11bdebd1eced5bee4b2ad0a43f50023648a4036f829205c90be2d6f1609f86f7e6c25b0300acf16b1589fedacfb507ee9ea532267f787d83dbda8b4c59d708d6
+  languageName: node
+  linkType: hard
+
 "are-we-there-yet@npm:^3.0.0":
   version: 3.0.1
   resolution: "are-we-there-yet@npm:3.0.1"
@@ -1908,6 +1941,13 @@ __metadata:
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
   checksum: 669632eb3745404c2f822a18fc3a0122d2f9a7a13f7fb8b5823ee19d1d2ff9ee5b52c53367176ea4ad093c332fd5ab4bd0ebae5a8e27917a4105a4cfc86b1005
+  languageName: node
+  linkType: hard
+
+"better-lock@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "better-lock@npm:2.0.3"
+  checksum: d26c71325d7d9035cbefe1ed892283fd3308d7c65250308c49f38252d8d4991ce7acea4c59ef6f0de3e8d5e58e2ac3e2c98c58daed6b982bb4d25b402b835b50
   languageName: node
   linkType: hard
 
@@ -2065,10 +2105,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"class-transformer@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "class-transformer@npm:0.5.1"
+  checksum: f191c8b4cc4239990f5efdd790cabdd852c243ed66248e39f6616a349c910c6eed2d9fd1fbf7ee6ea89f69b4f1d0b493b27347fe0cd0ae26b47c3745a805b6d3
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
   checksum: 2ac8cd2b2f5ec986a3c743935ec85b07bc174d5421a5efc8017e1f146a1cf5f781ae962618f416352103b32c9cd7e203276e8c28241bbe946160cab16149fb68
+  languageName: node
+  linkType: hard
+
+"cluster-key-slot@npm:^1.1.0":
+  version: 1.1.2
+  resolution: "cluster-key-slot@npm:1.1.2"
+  checksum: be0ad2d262502adc998597e83f9ded1b80f827f0452127c5a37b22dfca36bab8edf393f7b25bb626006fb9fb2436106939ede6d2d6ecf4229b96a47f27edd681
   languageName: node
   linkType: hard
 
@@ -2254,7 +2308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3":
+"debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -2294,7 +2348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"denque@npm:^2.1.0":
+"denque@npm:^2.0.1, denque@npm:^2.1.0":
   version: 2.1.0
   resolution: "denque@npm:2.1.0"
   checksum: 1d4ae1d05e59ac3a3481e7b478293f4b4c813819342273f3d5b826c7ffa9753c520919ba264f377e09108d24ec6cf0ec0ac729a5686cbb8f32d797126c5dae74
@@ -2349,6 +2403,17 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: d4c5c39d5a9868b5fa152f00cada8a936868fd3367f33f71be515ecee4c803132d11b31a6222b2571b1e5f7e13890156a94880345594d0ce7e3c9895f560f192
+  languageName: node
+  linkType: hard
+
+"encoded-buffer@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "encoded-buffer@npm:0.2.6"
+  dependencies:
+    lodash: ^4.17.10
+    to-buffer: ^1.1.1
+    tslib: ^1.9.3
+  checksum: a7a9b7d8f5244813f14eb48b8613759015d913f838bbb20b0a0c315c94f680e5edb579b379916ceb8b508aa772ca8296363aa59b8ec2188485db15c0337150bd
   languageName: node
   linkType: hard
 
@@ -2864,6 +2929,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ioredis@npm:^5.2.3":
+  version: 5.2.4
+  resolution: "ioredis@npm:5.2.4"
+  dependencies:
+    "@ioredis/commands": ^1.1.1
+    cluster-key-slot: ^1.1.0
+    debug: ^4.3.4
+    denque: ^2.0.1
+    lodash.defaults: ^4.2.0
+    lodash.isarguments: ^3.1.0
+    redis-errors: ^1.2.0
+    redis-parser: ^3.0.0
+    standard-as-callback: ^2.1.0
+  checksum: c3a7df407a41ae516bede8b6db853c568198b13fe4a4785f66be5cd541087121b9d45fb9a6b1b6a5fb668c29ce52ab4685642b994803bdfa0a35f794ea8ef7ae
+  languageName: node
+  linkType: hard
+
 "ip@npm:^2.0.0":
   version: 2.0.0
   resolution: "ip@npm:2.0.0"
@@ -3080,6 +3162,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"koishi-plugin-cache-aragami@npm:2.4.0":
+  version: 2.4.0
+  resolution: "koishi-plugin-cache-aragami@npm:2.4.0"
+  dependencies:
+    aragami: ^1.1.1
+    koishi-thirdeye: ^11.1.13
+  peerDependencies:
+    koishi: ^4.10.3
+  checksum: 3a943c603c7b163bdf2307920456ed5ccaac6c29484c1557ddd555e62ca18640376e0b86118fd419d4960d8c83d2f28caf0e91a2474391de98609598c6d729c1
+  languageName: node
+  linkType: hard
+
 "koishi-plugin-changelog@npm:2.0.1":
   version: 2.0.1
   resolution: "koishi-plugin-changelog@npm:2.0.1"
@@ -3140,28 +3234,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"koishi-plugin-pics@npm:10.3.2":
-  version: 10.3.2
-  resolution: "koishi-plugin-pics@npm:10.3.2"
+"koishi-plugin-pics@npm:10.4.0":
+  version: 10.4.0
+  resolution: "koishi-plugin-pics@npm:10.4.0"
   dependencies:
-    koishi-thirdeye: ^11.1.11
+    koishi-thirdeye: ^11.1.13
     lodash: ^4.17.21
   peerDependencies:
-    koishi: ^4.9.7
-  checksum: 2beeb26684459b3711bf75cbd6cc0c94213c6c49d0f418dfc5b5b1de3614faba717471261662a42fc1a5d19d3ad9f2a16d6b36d3ad6ecc9a4f9ab7bd1b16b752
+    koishi: ^4.10.3
+  checksum: bc2d971fcbf815d0e6f811190426a4687fe01becdddea7b0e4eac692b04414131b990c9142ce161f4aafcf06cfee0896451add7db08904901e4dbfaf8b620604
   languageName: node
   linkType: hard
 
-"koishi-plugin-picsource-localfs@npm:10.2.0":
-  version: 10.2.0
-  resolution: "koishi-plugin-picsource-localfs@npm:10.2.0"
+"koishi-plugin-picsource-localfs@npm:10.3.0":
+  version: 10.3.0
+  resolution: "koishi-plugin-picsource-localfs@npm:10.3.0"
   dependencies:
-    koishi-thirdeye: ^11.1.11
+    koishi-thirdeye: ^11.1.13
     read-dir-deep: ^7.0.1
   peerDependencies:
-    koishi: ^4.9.7
+    koishi: ^4.10.3
     koishi-plugin-pics: ^10.2.1
-  checksum: 33defce6094e494eda863ea85926feb3c2a030290dbb6100377d56962544bf5ed9d54fe46b6e4d824bc2a9e49438110196aea710a5cb37e32ed049eba6f9db8f
+  checksum: 1c19c688828986a989eaf61e6108637dfa638362687a47f36fc5b0d366191176de126ae50e440758e957c74bc348264cd3404cd2719038431d8757b987aec210
   languageName: node
   linkType: hard
 
@@ -3196,19 +3290,6 @@ __metadata:
   peerDependencies:
     koishi: ^4.10.1
   checksum: 2222654fd7080ad822ecc6d789475e5facd0c783f0ba7c363be9d1fb4b0d2359c9982cc61cae7faa361bc74ee68ae531d10753bb6394c4d7668f7d832fc2719a
-  languageName: node
-  linkType: hard
-
-"koishi-thirdeye@npm:^11.1.11":
-  version: 11.1.11
-  resolution: "koishi-thirdeye@npm:11.1.11"
-  dependencies:
-    minato-decorators: ^2.1.0
-    rxjs: ^7.5.6
-    satori-decorators: ^1.1.1
-  peerDependencies:
-    koishi: ^4.9.7
-  checksum: 02db679d1c617d26361492edc53f11f8e56468a5054e24361ba9d549e4d6e8c4ff339a5a9c63fea3c439dc746f7de9e6a8f3e8a439cb5de5d4058535cd739ef7
   languageName: node
   linkType: hard
 
@@ -3254,7 +3335,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.21":
+"lodash.defaults@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "lodash.defaults@npm:4.2.0"
+  checksum: 84923258235592c8886e29de5491946ff8c2ae5c82a7ac5cddd2e3cb697e6fbdfbbb6efcca015795c86eec2bb953a5a2ee4016e3735a3f02720428a40efbb8f1
+  languageName: node
+  linkType: hard
+
+"lodash.isarguments@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "lodash.isarguments@npm:3.1.0"
+  checksum: ae1526f3eb5c61c77944b101b1f655f846ecbedcb9e6b073526eba6890dc0f13f09f72e11ffbf6540b602caee319af9ac363d6cdd6be41f4ee453436f04f13b5
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.17.10, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -3267,6 +3362,13 @@ __metadata:
   dependencies:
     yallist: ^4.0.0
   checksum: f97f499f898f23e4585742138a22f22526254fdba6d75d41a1c2526b3b6cc5747ef59c5612ba7375f42aca4f8461950e925ba08c991ead0651b4918b7c978297
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^7.13.1":
+  version: 7.14.1
+  resolution: "lru-cache@npm:7.14.1"
+  checksum: d72c6713c6a6d86836a7a6523b3f1ac6764768cca47ec99341c3e76db06aacd4764620e5e2cda719a36848785a52a70e531822dc2b33fb071fa709683746c104
   languageName: node
   linkType: hard
 
@@ -3366,18 +3468,6 @@ __metadata:
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
   checksum: d2421a3444848ce7f84bd49115ddacff29c15745db73f54041edc906c14b131a38d05298dae3081667627a59b2eb1ca4b436ff2e1b80f69679522410418b478a
-  languageName: node
-  linkType: hard
-
-"minato-decorators@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "minato-decorators@npm:2.1.0"
-  dependencies:
-    lodash: ^4.17.21
-    typed-reflector: ^1.0.10
-  peerDependencies:
-    "@minatojs/core": ^1.3.0
-  checksum: 4147dcd66da19e2cb17c881adeb896e97d459e94468a1300600dadf2c6ce99b0460c474ad6f45a0ad2c9abb3814003e5971eba63db44a40ec32a1c45e3f2fa1e
   languageName: node
   linkType: hard
 
@@ -3545,6 +3635,13 @@ __metadata:
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
   checksum: b8ffeb1e262eff7968fc90a2b6767b04cfd9842582a9d0ece0af7049537266e7b2506dfb1d107a32f06dd849ab2aea834d5830f7f4d0e5cb7d36e1ae55d021d9
+  languageName: node
+  linkType: hard
+
+"node-abort-controller@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "node-abort-controller@npm:3.0.1"
+  checksum: 2b3d75c65249fea99e8ba22da3a8bc553f034f44dd12f5f4b38b520f718b01c88718c978f0c24c2a460fc01de9a80b567028f547b94440cb47adeacfeb82c2ee
   languageName: node
   linkType: hard
 
@@ -3880,6 +3977,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"redis-errors@npm:^1.0.0, redis-errors@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "redis-errors@npm:1.2.0"
+  checksum: f28ac2692113f6f9c222670735aa58aeae413464fd58ccf3fce3f700cae7262606300840c802c64f2b53f19f65993da24dc918afc277e9e33ac1ff09edb394f4
+  languageName: node
+  linkType: hard
+
+"redis-parser@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "redis-parser@npm:3.0.0"
+  dependencies:
+    redis-errors: ^1.0.0
+  checksum: 89290ae530332f2ae37577647fa18208d10308a1a6ba750b9d9a093e7398f5e5253f19855b64c98757f7129cccce958e4af2573fdc33bad41405f87f1943459a
+  languageName: node
+  linkType: hard
+
 "reflect-metadata@npm:^0.1.13":
   version: 0.1.13
   resolution: "reflect-metadata@npm:0.1.13"
@@ -4169,6 +4282,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"standard-as-callback@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "standard-as-callback@npm:2.1.0"
+  checksum: 88bec83ee220687c72d94fd86a98d5272c91d37ec64b66d830dbc0d79b62bfa6e47f53b71646011835fc9ce7fae62739545d13124262b53be4fbb3e2ebad551c
+  languageName: node
+  linkType: hard
+
 "statuses@npm:2.0.1":
   version: 2.0.1
   resolution: "statuses@npm:2.0.1"
@@ -4275,6 +4395,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"to-buffer@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "to-buffer@npm:1.1.1"
+  checksum: 6c897f58c2bdd8b8b1645ea515297732fec6dafb089bf36d12370c102ff5d64abf2be9410e0b1b7cfc707bada22d9a4084558010bfc78dd7023748dc5dd9a1ce
+  languageName: node
+  linkType: hard
+
 "to-regex-range@npm:^5.0.1":
   version: 5.0.1
   resolution: "to-regex-range@npm:5.0.1"
@@ -4310,7 +4437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.11.1":
+"tslib@npm:^1.11.1, tslib@npm:^1.9.3":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
