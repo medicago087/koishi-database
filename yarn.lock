@@ -859,13 +859,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@koishijs/boilerplate@workspace:."
   dependencies:
-    "@koishijs/cli": 4.10.3
+    "@koishijs/cli": 4.10.4
     "@koishijs/plugin-adapter-discord": 3.3.2
     "@koishijs/plugin-adapter-kook": 3.4.3
-    "@koishijs/plugin-adapter-onebot": 5.4.3
+    "@koishijs/plugin-adapter-onebot": 5.4.4
     "@koishijs/plugin-adapter-telegram": 3.5.2
     "@koishijs/plugin-admin": 1.1.5
-    "@koishijs/plugin-assets-local": 2.0.10
     "@koishijs/plugin-auth": 2.4.0
     "@koishijs/plugin-bind": 1.3.2
     "@koishijs/plugin-chat": 3.1.9
@@ -877,11 +876,11 @@ __metadata:
     "@koishijs/plugin-dataview": 2.1.7
     "@koishijs/plugin-echo": 2.0.5
     "@koishijs/plugin-forward": 2.3.0
-    "@koishijs/plugin-help": 1.2.6
+    "@koishijs/plugin-help": 2.0.0
     "@koishijs/plugin-insight": 3.1.8
     "@koishijs/plugin-locales": 1.0.3
     "@koishijs/plugin-logger": 2.1.7
-    "@koishijs/plugin-market": 1.4.8
+    "@koishijs/plugin-market": 1.4.9
     "@koishijs/plugin-rate-limit": 1.2.4
     "@koishijs/plugin-repeater": 1.1.3
     "@koishijs/plugin-respondent": 5.0.2
@@ -907,21 +906,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@koishijs/cli@npm:4.10.3":
-  version: 4.10.3
-  resolution: "@koishijs/cli@npm:4.10.3"
+"@koishijs/cli@npm:4.10.4":
+  version: 4.10.4
+  resolution: "@koishijs/cli@npm:4.10.4"
   dependencies:
     "@koishijs/loader": ^2.2.3
-    cac: ^6.7.12
+    cac: ^6.7.14
     chokidar: ^3.5.3
     kleur: ^4.1.5
     prompts: ^2.4.2
     throttle-debounce: ^3.0.1
   peerDependencies:
-    koishi: ^4.10.3
+    koishi: ^4.10.4
   bin:
     koishi: lib/bin.js
-  checksum: 2b2f6a3f4d92c8d11dc40809f06ee59a8de0d25de85b26faf7c6f036dd4f695b5cc1bb243f6c9c61c970ae6556898334c5f44ffc02109dc14cd300ab5205ac0a
+  checksum: 7a942a022d8c301431b77b3195374376cec37cbaf78f6c33e904c0ea39643c8e264d8faf8d788ba325453eda1bccacad3682a7ac951405d1e7942b2e51416e08
   languageName: node
   linkType: hard
 
@@ -983,14 +982,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-adapter-onebot@npm:5.4.3":
-  version: 5.4.3
-  resolution: "@koishijs/plugin-adapter-onebot@npm:5.4.3"
+"@koishijs/plugin-adapter-onebot@npm:5.4.4":
+  version: 5.4.4
+  resolution: "@koishijs/plugin-adapter-onebot@npm:5.4.4"
   dependencies:
-    "@satorijs/adapter-onebot": ^5.4.3
+    "@satorijs/adapter-onebot": ^5.4.4
   peerDependencies:
     koishi: ^4.10.3
-  checksum: deb2a0197539ac80cc6f6151664aa46247ad09dbf40ef82d1d4377789bac8f51f61c1985ea216583116c17d106a28acbec763bad46e804a6a3b4bbb88a2dac42
+  checksum: 7afd72c89b70224e49ea2b479a838ff71e28530a9294583d5f48bc6e74e2ba232a08eb19c6a2d64e2585bd0c85676e0e6eab58f8f954718de66edc31321e16aa
   languageName: node
   linkType: hard
 
@@ -1013,17 +1012,6 @@ __metadata:
   peerDependencies:
     koishi: ^4.8.5
   checksum: 9e87c10d85c4ac6482c278e21a8b2d13be48bf96b443cfeecb8372e08c8ef475f6908ff8ccdae9cc5aa1e9b70c2f18705af73650aa528a79eeb2ade8a2a94569
-  languageName: node
-  linkType: hard
-
-"@koishijs/plugin-assets-local@npm:2.0.10":
-  version: 2.0.10
-  resolution: "@koishijs/plugin-assets-local@npm:2.0.10"
-  dependencies:
-    file-type: ^16.5.4
-  peerDependencies:
-    koishi: ^4.9.7
-  checksum: 49a9000c445a37e23673995cc8a046d0668d8bdb11b7ee93cecf42578d70a51ee32d09679427fe08c4d555ee123732204d8aafa800ea7e5ad725904228f5f6e7
   languageName: node
   linkType: hard
 
@@ -1148,12 +1136,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-help@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@koishijs/plugin-help@npm:1.2.6"
+"@koishijs/plugin-help@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@koishijs/plugin-help@npm:2.0.0"
   peerDependencies:
-    koishi: ^4.10.3
-  checksum: 1f66d2a32645557b43b60280f87ad2f2bc5bfbb4319a95dbec379254f604921096cbfaa794f37e5aa034638ace186de9221fc4ba647ae131764f01acdb4770d3
+    koishi: ^4.10.4
+  checksum: 3c5b580497c57b7fd7cf5e8be2fe3ac1195618a0333dfe8402604e6ac1a4f567b1867db82916fd7f1dbafd9f5ee4e60e06ace6b623e656d05faa7e3c65484e97
   languageName: node
   linkType: hard
 
@@ -1191,9 +1179,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@koishijs/plugin-market@npm:1.4.8":
-  version: 1.4.8
-  resolution: "@koishijs/plugin-market@npm:1.4.8"
+"@koishijs/plugin-market@npm:1.4.9":
+  version: 1.4.9
+  resolution: "@koishijs/plugin-market@npm:1.4.9"
   dependencies:
     "@koishijs/registry": ^4.1.4
     execa: ^5.1.1
@@ -1207,7 +1195,7 @@ __metadata:
     "@koishijs/cli": ^4.10.4
     "@koishijs/plugin-console": ^4.7.1
     koishi: ^4.10.4
-  checksum: df8971ff8781e7f560adffcef91ca22673384d991acb32bf2d65d1fa1f2110ed52a112edf8186c6719c55181e9037e6fbed4054063910c067d54aa0bc7b2485f
+  checksum: bce0a0fce7d02118e89d9de3d9a6f010013a9760ce4e42250349983dbc780e34aaab5c58ea717723a5adf3f6695f118a24079a21a10a0e63d6f5872c80057cd8
   languageName: node
   linkType: hard
 
@@ -1481,14 +1469,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@satorijs/adapter-onebot@npm:^5.4.3":
-  version: 5.4.3
-  resolution: "@satorijs/adapter-onebot@npm:5.4.3"
+"@satorijs/adapter-onebot@npm:^5.4.4":
+  version: 5.4.4
+  resolution: "@satorijs/adapter-onebot@npm:5.4.4"
   dependencies:
     qface: ^1.2.0
   peerDependencies:
     "@satorijs/satori": ^1.4.2
-  checksum: 92418bfda116f94075dbf16e7e9f4fb5364211d0a0298c0dcb50c2a45dd79b8692ce72d5ec97a7bd3058325ebefd9b3e415dbc9a51c447220ca3acea4df326d2
+  checksum: 854a4f3c0645eb3b2d11a8aaa64a43ae7c04aa775bfa04b19ae0d9310cc3e637e46a706ff550893a66fdcf4844719b9e5f5546d7d330223444098b0dc928f091
   languageName: node
   linkType: hard
 
@@ -2027,7 +2015,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cac@npm:^6.7.12":
+"cac@npm:^6.7.14":
   version: 6.7.14
   resolution: "cac@npm:6.7.14"
   checksum: 45a2496a9443abbe7f52a49b22fbe51b1905eff46e03fd5e6c98e3f85077be3f8949685a1849b1a9cd2bc3e5567dfebcf64f01ce01847baf918f1b37c839791a
